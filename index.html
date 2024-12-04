@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link rel="icon" type="image/x-icon" href="/image/icons/nav_logo.jpg">
+
+    <!-- css link -->
+    <link rel="stylesheet" href="media/main.css">
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--responsive link  -->
+    <link rel="stylesheet" href="media/responsive.css">
+    <link rel="stylesheet" href="/media/font.css">
+    <link rel="stylesheet" href="media/script.js">
+
+
+</head>
+<body>
+
+    <header>
+        <div class="navbar ">
+            <div class="navbar_logo">
+                <img src="image/icons/logo.png" alt="">
+            </div>
+
+            
+            <div class="navbar_list">
+                <ul>
+                    <li><a href="#home" onclick="navmenu()">Home</a></li>
+                    <li><a href="#category" onclick="navmenu()">Category</a></li>
+                    <li><a href="#blog" onclick="navmenu()">Blog</a></li>
+                    <li><a href="#about_us" onclick="navmenu()">About Us</a></li>
+                </ul>
+            </div>
+
+            <div class="navbar_btn">
+                <button><a href="login.html">Login</a></button>
+            </div>
+
+            <div class="navmenu_icon">
+                <i class="fa-solid fa-bars" onclick="navmenu()"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile_nav" id="myDiv">
+        <ul>
+        <li><a href="#home" onclick="navmenu()">Home</a></li>
+        <li><a href="#category" onclick="navmenu()">Category</a></li>
+        <li><a href="#blog" onclick="navmenu()">Blog</a></li>
+        <li><a href="#about_us" onclick="navmenu()">About Us</a></li>
+        </ul>
+
+        <div class="mobile_nav_icon">
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook" style="color:rgba(0, 0, 255, 0.712);"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram" style="color: rgb(248, 2, 219) ;"></i></a>
+            <a href="https://x.com/?lang=en"><i class="fa-brands fa-twitter" style="color: rgb(10, 154, 211)"></i></a>
+            <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin" style="color: rgb(25, 67, 183);"></i></a>
+        </div>
+         <div class="mobile_nav_btn">
+                <button><a href="login.html">Login</a></button>
+            </div>
+    </div>
+
+    <!-- Hero_section -->
+    <section class="section" id="home">
+        <div class="hero_component theme-padding">
+            <div class="hero_content">
+                <div class="hero_list">
+                    <div class="hero_heading">
+                        <h1>Explore</h1>
+                        <h1>Beautiful✦</h1>
+                        <h1>World!</h1>
+                    </div>
+                    
+
+                    <div class="hero_arrow_image">
+                        <img src="image/icons/plan_heart-removebg-preview.png" alt="">
+                    </div>
+                </div>
+                    <div class="hero_information">
+                        <div class="hero_information_list">
+                            <h3>Located in</h3>
+                            <h4>India  <i class="fa-solid fa-angle-down"></i></h4>
+                        </div>
+                        <div class="hero_information_list">
+                            <h3>Date</h3>
+                            <h4>Wed,7 Nov <i class="fa-solid fa-angle-down"></i></h4>
+                        </div>
+                        <div class="hero_information_list">
+                             <h3>Price Range</h3>
+                             <h4>$400 - $700 <i class="fa-solid fa-angle-down"></i></h4>
+                        </div>
+                        <div class="search_btn">
+                            <button>Search <i class="fa-solid fa-magnifying-glass"></i></button>
+                            
+                        </div>
+                    </div>
+            </div>
+
+            <div class="hero_image">
+                <img src="image/pictures/beautiful-tourist-woman-wearing-red-sunglasses-holding-travel-suitcase-looking-confident-ready-travel-standing-isolated-blue-space.png" alt="">
+            </div>
+        </div>
+
+        
+    </section>
+
+    <!-- Popular place _section -->
+    <section class="section" id="category">
+        <div class= theme-padding>
+            <div class="popular_place">
+                <div class="popular_place_navbar_heading">
+                    <h1>Popular Place</h1>
+                </div>
+                <div class="popular_place_navbar_list">
+                    <ul>
+                        <li>Beach</li>
+                        <li>Mountain</li>
+                        <li>Waterfall</li>
+                        <li class="iceberg">Icebergs</li>
+                    </ul>
+                </div>
+            </div>
+              <!-- Dropdown for mobile devices -->
+    <div class="dropdown">
+        <button class="dropdown-btn">Explore place <i class="fa-solid fa-caret-down"></i></button>
+        <div class="dropdown-content">
+            <ul>
+                <li>Beach</li>
+                <li>Mountain</li>
+                <li>Waterfall</li>
+                <li class="iceberg">Icebergs</li>
+            </ul>
+        </div>
+    </div>
+
+            
+           <div class="card_content">
+                <div class="card_information">
+                    <div class="card_image">
+                        <img src="image/tab_images/beach_1.jpeg" alt="">
+                    </div>
+                    <div class="card_image_title">
+                        <h3>Mandavi Beach</h3>
+                        <h4><i class="fa-solid fa-star"></i> 4.7</h4>
+                    </div>
+                    <div class="card_image_location">
+                        <i class="fa-solid fa-location-dot" style="color: #083a91;"></i>
+                        <h4>India</h4>
+                    </div>
+                </div>
+                <div class="card_information">
+                    <div class="card_image">
+                        <img src="image/tab_images/beach_2.jpeg" alt="">
+                    </div>
+                    <div class="card_image_title">
+                        <h3>Shivrajpur Beach</h3>
+                        <h4><i class="fa-solid fa-star"></i> 4.7</h4>
+                    </div>
+                    <div class="card_image_location">
+                        <i class="fa-solid fa-location-dot" style="color: #083a91;"></i>
+                        <h4>India</h4>
+                    </div>
+                </div>
+                <div class="card_information">
+                    <div class="card_image">
+                        <img src="image/tab_images/beach_3.jpeg" alt="">
+                    </div>
+                    <div class="card_image_title">
+                        <h3>Somnath Beach</h3>
+                        <h4><i class="fa-solid fa-star"></i> 4.7</h4>
+                    </div>
+                    <div class="card_image_location">
+                        <i class="fa-solid fa-location-dot" style="color: #083a91;"></i>
+                        <h4>India</h4>
+                    </div>
+                </div>
+           </div>
+
+
+        </div>
+    </section>
+
+    <!-- aminities_section -->
+     <section class="section" id="blog">
+        <div class="amenities_component theme-padding ">
+            <div class="amenities_image">
+                <img src="image/pictures/person.png" alt="">
+            </div>
+            <div class="amenities_content">
+                <div class="amenities_content_heading">
+                    <h1>Explore all corners of The world with us</h1>
+                </div>  
+                <div class="amenities_content_paragraph">
+                   <p> Travel is fatal to prejudice, and narrow mindedness,
+                    And many of our people need it sorely on these accounts,
+                    And many of our people need it sorely.</p>
+                </div>
+                <div class="amenities_functionality">
+                    <div class="functionality">
+                        <div class="flight_icon">
+                            <i class="fa-solid fa-globe"></i>
+                        </div>
+                        <div>
+                            <h3>Flight</h3>
+                        </div>
+                    </div>
+                    
+                    <div class="functionality">
+                        <div class="flight_icon">
+                            <i class="fa-solid fa-hotel"></i>
+                        </div>
+                        <div>
+                            <h3>Hotel</h3>
+                        </div>
+                    </div>
+
+                    <div class="functionality">
+                        <div class="flight_icon">
+                            <i class="fa-solid fa-wifi"></i>
+                        </div>
+                        <div>
+                            <h3>Wi-Fi</h3>
+                        </div>
+                    </div>
+
+                    <div class="functionality">
+                        <div class="flight_icon">
+                            <i class="fa-solid fa-utensils"></i>                        
+                        </div>
+                        <div>
+                            <h3>Food</h3>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        </div>
+     </section>
+
+    <!-- Explore section -->
+    <section class="section">
+    <div class= theme-padding>
+        <div class="popular_place">
+            <div class="popular_place_navbar_heading">
+                <h1>Explore Place</h1>
+            </div>
+            <div class="popular_place_navbar_list">
+                <ul>
+                    <li>Beach</li>
+                    <li>Mountain</li>
+                    <li>Waterfall</li>
+                    <li class="iceberg">Icebergs</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Dropdown for mobile devices -->
+    <div class="dropdown">
+        <button class="dropdown-btn">Explore place <i class="fa-solid fa-caret-down"></i></button>
+        <div class="dropdown-content">
+            <ul>
+                <li>Beach</li>
+                <li>Mountain</li>
+                <li>Waterfall</li>
+                <li class="iceberg">Icebergs</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+        
+       <div class="card_details">
+            <div class="card_information">
+                <div class="card_image">
+                    <img src="image/tab_images/m_9.avif" alt="">
+                </div>
+                <div class="card_image_title">
+                    <h3>Dumas Beach</h3>
+                    <h4><i class="fa-solid fa-star"></i> 4.7</h4>
+                </div>
+                <div class="card_image_location">
+                    <i class="fa-solid fa-location-dot" style="color: #083a91;"></i>
+                    <h4>India</h4>
+                </div>
+            </div>
+
+            <div class="card_information">
+                <div class="card_image">
+                    <img src="image/tab_images/m_2.avif" alt="">
+                </div>
+                <div class="card_image_title">
+                    <h3>Ghogha Beach</h3>
+                    <h4><i class="fa-solid fa-star"></i> 4.7</h4>
+                </div>
+                <div class="card_image_location">
+                    <i class="fa-solid fa-location-dot" style="color: #083a91;"></i>
+                    <h4>India</h4>
+                </div>
+            </div>
+
+            <div class="card_information">
+                <div class="card_image">
+                    <img src="image/tab_images/m_1.jpg" alt="">
+                </div>
+                <div class="card_image_title">
+                    <h3>Porbandar  Beach</h3>
+                    <h4><i class="fa-solid fa-star"></i> 4.7</h4>
+                </div>
+                <div class="card_image_location">
+                    <i class="fa-solid fa-location-dot" style="color: #083a91;"></i>
+                    <h4>India</h4>
+                </div>
+            </div>
+
+            <div class="card_information">
+                <div class="card_image">
+                    <img src="image/tab_images/beach_img4.avif" alt="">
+                </div>
+                <div class="card_image_title">
+                    <h3>Tithal Beach</h3>
+                    <h4><i class="fa-solid fa-star"></i> 4.7</h4>
+                </div>
+                <div class="card_image_location">
+                    <i class="fa-solid fa-location-dot" style="color: #083a91;"></i>
+                    <h4>India</h4>
+                </div>
+            </div>
+
+            <div class="card_information">
+                <div class="card_image">
+                    <img src="image/tab_images/m_7.avif" alt="">
+                </div>
+                <div class="card_image_title">
+                    <h3>Beyt Dwarka Beach</h3>
+                    <h4><i class="fa-solid fa-star"></i> 4.7</h4>
+                </div>
+                <div class="card_image_location">
+                    <i class="fa-solid fa-location-dot" style="color: #083a91;"></i>
+                    <h4>India</h4>
+                </div>
+            </div>
+
+            <div class="card_information">
+                <div class="card_image">
+                    <img src="image/tab_images/m_4.avif" alt="">
+                </div>
+                <div class="card_image_title">
+                    <h3>Nargol Beach</h3>
+                    <h4><i class="fa-solid fa-star"></i> 4.7</h4>
+                </div>
+                <div class="card_image_location">
+                    <i class="fa-solid fa-location-dot" style="color: #083a91;"></i>
+                    <h4>India</h4>
+                </div>
+            </div>
+            
+       </div>
+
+
+    </div>
+    </section>
+
+    <!-- Number Section -->
+     <section class="section">
+        <div class="theme-padding">
+            <div class="box_card">
+                    <div class="card_number">
+                        <h1>24+</h1>
+                        <h3>Cities</h3>
+                    </div>
+
+                    <div class="card_number">
+                        <h1>700+</h1>
+                        <h3>Place</h3>
+                    </div>
+
+                    <div class="card_number">
+                        <h1>200+</h1>
+                        <h3>Hotels</h3>
+                    </div>
+
+                    <div class="card_number">
+                        <h1>2k+</h1>
+                        <h3>Reviews</h3>
+                    </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- gallery section -->
+      <section class="Section">
+        <div class="theme-padding">
+            <div class="gallery_view_navbar">
+                <div class="gallary_view_heading">
+                    <h1>Our Gallery</h1>
+                    <h3>-share Your Happy Moment</h3>
+                </div>
+                <div class="gallary_view_sub_heading">
+                    <h3>View all</h3>
+                </div>
+            </div>
+
+            <div class="image_gallery_">
+                <div class="images_gallery_card">
+                    <div class="images">
+                        <img src="image/tab_images/m_1.jpg" alt="">
+                    </div>
+                    <div class="images">
+                        <img src="image/tab_images/m_4.avif" alt="">
+                    </div>
+                    <div class="images">
+                        <img src="image/tab_images/m_5.jpeg" alt="">
+                    </div>
+                    <div class="images">
+                        <img src="image/tab_images/m_9.avif" alt="">
+                    </div>
+                    <div class="images">
+                        <img src="image/tab_images/m_6.avif" alt="">
+                    </div>
+                    <div class="images">
+                        <img src="image/tab_images/m_8.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+
+                
+
+            </div>
+        </div>
+
+      </section>
+
+      <!-- logo_section -->
+       <section class="section" id="about_us">
+            <div class="theme-padding">
+                <div class="logo_images">
+                    <div class="logo_list">
+                        <img src="image/icons/aven.png" alt="">
+                    </div>
+                    <div class="logo_list">
+                        <img src="image/icons/AJIVI.png" alt="">
+                    </div>
+                    <div class="logo_list">
+                        <img src="image/icons/amara2308.jpg" alt="">
+                    </div>
+                    <div class="logo_list">
+                        <img src="image/icons/hexlabb.png" alt="">
+                    </div>
+                    <div class="logo_list">
+                        <img src="image/icons/kanba_black.png" alt="">
+                    </div>
+                </div>
+            </div>
+       </section>
+
+       <!-- form_section -->
+        <section class="section"> 
+            <div class="theme-padding">
+                <div class="form_component">
+                    <div class="form_heading">
+                        <h1>Sing up to our newsletter</h1>
+                    </div>
+                    <div class="form_searchbox">
+                        <input type="text" placeholder="Enter your Email ere">
+                        <button>Submit</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer_section -->
+         <footer class="footer">
+            <div class="theme-padding">
+                <div class="footer_component">
+                    <div class="footer_content_social">
+                        <div class="footer_logo">
+                            <img src="image/icons/logo.png" alt="">
+                        </div>
+                        <div class="footer_content_paragraph">
+                            <p>Travel is fatal to prejudice,
+                                and narrow mindedness,
+                                And many of our peope.
+                            </p>
+                        </div>
+                        <div class="footer_content_icon">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                        </div>
+                    </div>
+
+                    <div class="footer_content_links">
+                       <div class="footer_content_links_heading">
+                            <h2>Quick Links</h2>
+                       </div>
+                       <div class="footer_content_links_list">
+                            <h3>Home</h3>
+                            <h3>Category</h3>
+                            <h3>Blog</h3>
+                            <h3>About us</h3>
+                       </div>
+                    </div>
+
+                    <div class="footer_content_links">
+                        <div class="footer_content_links_heading">
+                             <h2>Quick Links</h2>
+                        </div>
+                        <div class="footer_content_links_list">
+                             <h3>Home</h3>
+                             <h3>Category</h3>
+                             <h3>Blog</h3>
+                             <h3>About us</h3>
+                        </div>
+                     </div>
+
+                     <div class="footer_content_contact">
+                        <div class="footer_content_links_heading">
+                             <h2>Contact us</h2>
+                        </div>
+                        <div class="footer_content_links_list">
+                             <div class="footer_content_link_location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <h3>Gujarat India</h3>                             
+                            </div>
+                            <div class="footer_content_link_calldetails">
+                                <i class="fa-solid fa-phone"></i>
+                                <h3>2145 - 5467 - 5345</h3>
+                            </div>
+                            <div class="footer_content_link_mail">
+                                <i class="fa-solid fa-envelope"></i>
+                                <h3>travel@agency.com</h3>
+                            </div>
+                        </div>
+                     </div>
+                </div>
+            </div>
+         </footer>
+
+         <!-- footer_section -->
+         <footer>
+            <div class="copyright">
+                <h4>copyright @ <span>travel@agency</span>.com by Bhatti Prince </h4>
+            </div>
+         </footer>
+
+         <script src="media/script.js"></script>
+        
+</body>    
+</html>

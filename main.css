@@ -1,0 +1,746 @@
+*{
+    padding: 0; 
+    /* box-sizing: border-box; */
+    font-family: 'Nunito';
+    border: none; 
+    outline: none;
+}
+
+*::selection{
+    background-color:rgb(132, 198, 224);
+    padding: 5px;
+}
+html{
+    scroll-behavior: smooth;
+    overflow-x:hidden;
+    font-size: 90.5%;
+}
+html::-webkit-scrollbar{
+    width: 24px;
+}
+html::-webkit-scrollbar-track{
+    background: #d8d2d2;
+}
+html::-webkit-scrollbar-thumb{
+    background-color: #3FD0D4;    
+}
+
+.theme-padding{
+    padding-right: 140px;
+    padding-left: 140px;
+}
+section{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+/* start header css */
+header{
+    background-color: #FFFFFF;
+    position: sticky;
+    z-index: 9;
+    top: 0;
+    padding: 10px 0;
+}
+
+.navmenu_icon{
+    display: none !important;
+    cursor: pointer;
+}
+.navmenu_icon i{
+    font-size: 22px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+.navbar_logo img {
+    height: 90px;
+    width: 90px; 
+}
+
+.navbar_list ul {
+    list-style: none;
+    display: flex;
+    gap: 140px;
+
+}
+
+.navbar_list ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: 'Nunito';
+    transition-timing-function: ease-out;
+
+}
+.navbar_list ul li a:hover{
+    border-bottom: 2px solid #03ACE7;
+    transition-timing-function: ease-out;
+}
+
+
+.navbar_btn button{
+    padding: 10px 28px;
+    background-color: #03ACE7;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.6s ease;
+    font-family: 'Nunito';
+}
+.navbar_btn button a{
+    text-decoration: none;
+    color: black;
+}
+.navbar_btn button:hover{
+    transform: scale(1.1);
+    transition: all 0.6s ease;
+}
+
+/* end header css*/
+
+/* start hero_section css */
+
+.hero_component{
+    display: flex;
+    justify-content: space-around;
+}
+.hero_list{
+    display: flex;
+}
+.hero_arrow_image img{
+    width: 360px;
+}
+.hero_heading h1{
+    font-size: 48px;
+    font-family: 'Nunito';
+
+}
+.hero_image img{
+    height: 500px;
+    width: 340px;
+}
+
+.hero_information{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero_information_list h3{
+    color: #03ACE7;
+    font-family: 'Nunito';
+}
+.hero_information_list h4{
+    font-family: 'Nunito';
+
+}
+
+.search_btn{
+    display: flex;
+    align-items: center;
+}
+.search_btn button{
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    padding: 20px 30px;
+    background-color: #03ACE7;
+    font-family: 'Nunito';
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.6s ease;
+    cursor: pointer;
+    
+}
+.search_btn button:hover{
+    transition: all 0.6s ease;
+    transform: scale(1.1);
+}
+/* end hero_section css */
+
+/* start popular_place css */
+
+.popular_place{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.popular_place_navbar_heading h1{
+    font-size: 32px;
+}
+.popular_place_navbar_list ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 100px;
+}
+.popular_place_navbar_list ul li{
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.iceberg{
+    color: orangered;
+}
+
+.card_content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.card_information{
+    /* width: 33.3%; */
+    width: 324px;
+    height: 320px;
+    background-color: rgba(8, 144, 146, 0.16);
+    box-shadow: 0px 10px 16px skyblue;
+    border-radius: 12px;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+.card_information:hover{
+    transition: all 0.4s ease;
+    transform: scale(1.07);
+}
+.card_image{
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+}
+.card_image img{
+    width: 300px;
+    height: 200px;
+}
+.card_image_title{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+.card_image_title h4{
+    color: orangered;
+}
+.card_image_location{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    padding: 0 30px;
+}
+.card_image_location h4{
+    color: rgba(10, 10, 10, 0.414);
+}
+/* end popular_place css */
+
+/* start Explore css */
+
+.amenities_component{
+    display: flex;
+    justify-content: space-between;
+}
+.amenities_image{
+    width: 50%;
+}
+.amenities_image img{
+    height: 550px;
+    width: 650px;
+}
+.amenities_content{
+    width: 50%;
+    margin-left: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.amenities_content_heading{
+    font-size: 22px;
+    width: 100%;
+}
+.amenities_content_heading h1{
+    font-family: 'Nunito';
+    
+}
+
+.amenities_content_paragraph p{
+    width: 80%;
+    line-height: 34px;
+    color: #797272;
+    font-family: 'Nunito';
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+.amenities_functionality{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.functionality{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.flight_icon{
+    height: 60px;
+    width: 60px;
+    background-color: rgba(10, 10, 10, 0.14);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.flight_icon i{
+    font-size: 32px;
+    color: orangered;
+}
+
+.card_details{
+    width: 100%;
+    gap: 34px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* End explore css */
+
+/* Start Number section css */
+
+.box_card{
+    display: flex;
+    /* gap: 20px; */
+    justify-content: space-between;
+}
+.card_number{
+    height: 140px;
+    width: 230px;
+    background-color: transparent;
+    border: 2px solid rgba(10, 10, 10, 0.367);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.278);
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center; 
+    cursor: pointer;
+}
+.card_number h1{
+    font-size: 28px;
+    color: orangered;
+}
+
+/* end Number section css */
+
+/* start Gallery view css */
+
+.gallery_view_navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.gallary_view_heading{
+    display: flex;
+    align-items:center;
+    gap: 10px;
+}
+.gallary_view_heading h1{
+    font-size: 32px;
+}
+.gallary_view_sub_heading h3{
+    color: orangered;
+    cursor: pointer;
+}
+
+.image_gallery_{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.images_gallery_card{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    box-shadow:  0 15px 20px rgba(0, 0, 0, 0.675);
+    padding: 20px;
+
+}
+.images_gallery_card img{
+    height: 180px;
+    width: 240px;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+/* end Gallery view css */
+
+/* start logo section css */
+.logo_images{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo_images img{
+    height: 50px;
+    width: 160px;
+}
+/* end logo section css */
+
+/*  start form_section css */
+
+.form_component{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.form_heading{
+    margin-bottom: 30px;
+}
+.form_heading h1{
+    text-align: center;
+    font-size: 30px;
+}
+.form_searchbox{
+    display: flex;
+    justify-content: center;
+}
+.form_searchbox input{
+    background-color: #d8d2d2;
+    height: 60px;
+    width: 40%;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.form_searchbox button{
+    height: 60px;
+    width: 120px;
+    background-color: #03ACE7;
+    color: white;
+    font-size: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+/*  end form_section css */
+
+/* start footer section css */
+
+.footer{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.408);
+}
+.footer_component{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_logo img{
+    height: 120px;
+    width: 120px; 
+}
+.footer_content_paragraph{
+    width:220px;
+    font-size: 16px;
+    margin-bottom:30px;
+}
+.footer_content_paragraph p{
+    color: #7C7C7C;
+    word-spacing: 4px;
+}
+
+.footer_content_icon{
+    display: flex;
+    gap: 30px;
+}
+.footer_content_icon i{
+    font-size: 22px;
+    color: #373737;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+.footer_content_icon i:hover{
+    color: rgba(255, 68, 0, 0.851);
+    transition: all 0.4s ease;
+    transform: scale(1.2);
+}
+
+.footer_content_links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer_content_links_list{
+    display: flex;
+    flex-direction: column;
+    color: #373737c8;
+}
+.footer_content_link_location{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer_content_link_location i{
+    color: orangered;
+    font-size: 18px;
+}
+.footer_content_link_location h3{
+    /* width: 260px; */
+}
+.footer_content_link_calldetails{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer_content_link_calldetails i{
+    color: orangered;
+    font-size: 18px;
+}
+.footer_content_link_mail{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer_content_link_mail i{
+    color: orangered;
+    font-size: 18px;
+}
+
+.copyright{
+    text-align: center;
+}
+.copyright span{
+    color: orangered;
+}
+/* end footer section css */
+
+/* start login form css */
+html {
+    height: 100%;
+  }
+  
+  .login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.863);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+  }
+  
+  .login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .login-box .user-box {
+    position: relative;
+  }
+  
+  .login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
+  .login-box .user-box label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+  }
+  
+  .login-box .user-box input:focus ~ label,
+  .login-box .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 14px;
+  }
+  
+  .login-box form a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #03e9f4;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px
+  }
+  
+.user-box button{
+    padding: 8px 26px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: all 0.4s ease;
+}
+.user-box button:hover{
+    transition: all 0.4s ease;
+    transform: scale(1.1);
+    
+}
+
+/* start mobile navbar css */
+
+.mobile_nav{
+    position: fixed;
+    top: 100px;
+    /* right: 100px; */
+    /* background-color: rgb(27, 15, 42); */
+    z-index: 999;
+    width: 100%;
+    height: 100vh;
+    display: none;
+    background: rgba(3, 146, 255, 0.433);
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 20px );
+-webkit-backdrop-filter: blur( 20px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.mobile_nav ul{
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.mobile_nav li{
+    color: rgb(54, 42, 42);
+    padding:12px;
+    list-style: none;
+    font-family: 'Cormorant Garamond';
+    font-weight: 500;
+    /* border: 1px solid black; */
+    border-radius: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.274);
+}
+
+.mobile_nav  li a{
+    color:rgba(255, 255, 255, 0.871);
+    font-size: 22px;
+    text-decoration: none;
+}
+.mobile_nav_icon{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 24px;
+    transition: all 0.4s ease;
+    margin-bottom: 30px;
+}
+.mobile_nav_icon i{
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+.mobile_nav_icon i:hover{
+    transition: all 0.4s ease;
+    transform: scale(1.2);
+}
+.mobile_nav_btn{
+    display: flex;
+    justify-content: center;
+}
+.mobile_nav_btn button {
+    background-color: rgba(0, 0, 0, 0.575);
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.mobile_nav_btn button a{
+    color: white;
+    text-decoration: none;
+}
+
+.active{
+    display: block;
+}
+
+.mobile_nav_list{
+    color: black;
+}
+
+
+
+
+
+/* Dropdown styles */
+.dropdown {
+    display: none; /* Hidden by default */
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.dropdown-btn {
+    background-color: #08080861;
+    color: white;
+    padding: 14px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+}
+
+/* Dropdown content hidden by default */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(135, 207, 235, 0.293);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-content li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Show the dropdown when the button is clicked */
+.dropdown-btn:focus + .dropdown-content,
+.dropdown-content:hover {
+    display: block;
+}

@@ -1,0 +1,766 @@
+@media (max-width: 1799px){ 
+
+}
+@media (max-width: 1599px){
+
+}
+@media (max-width: 1408px){
+
+}
+@media (max-width: 1216px){
+    .theme-padding {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .card_image img {
+        width: 274px;
+        height: 182px;
+    }
+    .card_information {
+        width: 300px;
+        height: 306px;
+    }
+    .amenities_content {
+        margin-left: 60px;
+    }
+    .amenities_image img {
+        height: 460px;
+        width: 482px;
+    }
+    
+    .amenities_functionality {
+        gap: 24px;
+    }
+    
+    .flight_icon {
+        height: 50px;
+        width: 50px;
+    }
+    .flight_icon i {
+        font-size: 28px;
+    }
+    .card_details {
+        gap: 30px; 
+        justify-content: space-between;
+    }
+
+}
+@media (max-width: 1181px){
+    .navbar_list ul {
+        gap: 100px;
+    }
+    .card_information {
+        width: 261px;
+        height: 294px;
+    }
+    .card_image img {
+        width: 236px;
+        height: 165px;
+    }
+    .card_number {
+        height: 140px;
+        width: 190px;
+       
+    }
+    .logo_images img {
+        height: 44px;
+        width: 132px;
+    }
+}
+@media (max-width: 1024px){
+    
+    .navbar_list{
+        visibility: hidden;
+        display: none;
+    }
+    .navbar_btn{
+        visibility: hidden;
+        display: none;
+    }
+    .navmenu_icon{
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero_image img {
+        height: 513px;
+        width: 376px;
+    }
+    .hero_arrow_image img {
+        width: 300px;
+    }
+    .popular_place_navbar_list ul {
+        gap: 52px;
+    }
+    .card_image img {
+        width: 222px;
+        height: 161px;
+    }
+    .card_content {
+        gap: 20px;
+    }
+    .card_information {
+        width: 261px;
+        height: 286px;
+    }
+    .amenities_image img {
+        height: 425px;
+        width: 442px;
+    }
+    .amenities_content {
+        margin-left: 74px;
+    }
+    .amenities_content_heading h1 {
+        font-size: 28px;
+    }
+    .amenities_content_paragraph p {
+        width: 100%;
+        font-size: 14px;
+        padding-bottom: 12px;
+    }
+    .amenities_functionality {
+        width: 100%; 
+    }
+    .card_information {
+        width: 238px;
+        height: 285px;
+    }
+    .card_image_title {
+        padding: 0px 18px;
+    }
+    .card_image_location {
+        padding:0 18px;
+    }
+    .card_image img {
+        width: 212px;
+        height: 156px;
+    }
+    .box_card {
+        gap: 20px;
+    }
+    .footer_content_links_list h3{
+        font-size: 14px;
+    }
+    .footer_content_paragraph p{
+        font-size: 14px;
+    }
+}
+@media (max-width: 991px){
+    .hero_image img {
+        height: 466px;
+        width: 339px;
+    }
+    .hero_heading h1 {
+        font-size: 46px;
+        font-family: 'Nunito';
+    }
+    .card_content {
+        gap: 26px;
+    }
+    .amenities_functionality {
+        gap: 12px;
+    }
+    .amenities_content_paragraph p {
+        line-height: 28px;
+    }
+    .amenities_content {
+        margin-left: 86px;
+    }
+    .card_information {
+        width: 226px;
+        height: 279px;
+    }
+    .card_details {
+        gap: 24px;
+    }
+    .card_image_title {
+        padding: 0px 14px;
+    }
+}
+@media (max-width: 881px){
+    section {
+        padding-top: 44px;
+        padding-bottom: 44px;
+    }
+    .navbar_logo img {
+        height: 110px;
+        width: 105px;
+    }
+    .hero_heading h1 {
+        font-size: 42px;
+    }
+    .hero_arrow_image img {
+        width: 291px;
+    }
+    .hero_image img {
+        height: 446px;
+        width: 317px;
+    }
+    .search_btn button {
+        padding: 16px 16px;
+    }
+    .theme-padding {
+        padding-left: 56px;
+        padding-right: 56px;
+    }
+    .popular_place_navbar_list ul {
+        gap: 42px;
+    }
+    .card_image img {
+        width: 206px;
+        height: 152px;
+    }
+    .hero_heading h1 {
+        font-size: 38px;
+    }
+    .hero_arrow_image img {
+        width: 250px;
+    }
+    .hero_image img {
+        height: 406px;
+        width: 290px;
+    }
+    .amenities_image img {
+        height: 395px;
+        width: 412px;
+    }
+    .amenities_content_paragraph p {
+        line-height: 24px;
+    }
+    .card_details {
+        gap: 35px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .logo_images img {
+        height: 38px;
+        width: 118px;
+    }
+    .footer_content_links_heading h2{
+        font-size: 20px;
+    }
+}
+@media (max-width: 768px){
+    .hero_heading h1 {
+        font-size: 35px;
+    }
+    .hero_information_list h3 {
+        font-size: 14px;
+    }
+    .hero_information_list h4 {
+        font-size: 13px;
+    }
+    .search_btn button {
+        padding: 16px 13px;
+        font-size: 14px;
+    }
+    .hero_image img {
+        height: 396px;
+        width: 230px;
+    }
+    .popular_place_navbar_heading h1 {
+        font-size: 26px;
+    }
+    .popular_place_navbar_list ul li {
+        font-size: 14px;
+     }
+     .card_content {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .card_image_title h3{
+        font-size: 15px;
+    }
+    .card_image_location h4{
+        font-size: 14px;
+    }
+    .amenities_image img {
+        height: 367px;
+        width: 383px;
+    }
+    .amenities_content_heading h1 {
+        font-size: 22px;
+    }
+    .amenities_content_paragraph p {
+        line-height: 22px;
+    }
+    .flight_icon h3{
+        font-size: 14px;
+    }
+    .flight_icon {
+        height: 39px;
+        width: 39px;
+    }
+    .flight_icon i {
+        font-size: 22px;
+    }
+    .functionality {
+        gap: 16px;
+    }
+    .card_number h1 {
+        font-size: 24px;
+    }
+    .card_number {
+        height: 126px;
+        width: 190px;
+    }
+    .images_gallery_card img {
+        height: 146px;
+        width: 182px;
+    }
+    .logo_images img {
+        height: 27px;
+        width: 92px;
+    }
+    .form_heading h1 {
+        text-align: center;
+        font-size: 28px;
+    }
+    .form_searchbox input {
+        width: 52%;
+        font-size: 14px;
+    }
+    .form_searchbox button {
+        height: 60px;
+        width: 100px;
+        font-size: 14px;
+    }
+    .footer_logo img {
+        height: 108px;
+        width: 108px;
+    }
+    .footer_content_paragraph p {
+        word-spacing: 0px;
+        font-size: 13px;
+    }
+    .footer_content_links_heading h2 {
+        font-size: 16.5px;
+    }
+    .footer_content_links_list h3 {
+        font-size: 14px;
+    }
+    .footer_content_link_location i , .footer_content_link_calldetails i, .footer_content_link_mail i {
+        font-size: 16px;
+    }
+    .copyright {
+        font-size: 13px;
+    }
+    .footer_content_paragraph {
+        margin-bottom: 18px;
+    }
+}
+@media (max-width: 575px){
+    .theme-padding {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .hero_heading h1 {
+        font-size: 30px;
+    }
+    section {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .hero_arrow_image img {
+        width: 191px;
+    }
+    .search_btn button {
+        padding: 16px 10px;
+        font-size: 14px;
+    }
+    .hero_content {
+        width: 54%;
+    }
+    .hero_information {
+    }
+    .hero_image img {
+        height: 427px;
+        width: 236px;
+    }
+    .hero_information {
+        justify-content: space-around;
+        gap: 20px;
+        flex-wrap: wrap;
+
+    }
+    .hero_information {
+            gap: 20px;
+    }
+    .popular_place_navbar_heading h1 {
+        font-size: 20px;
+    }
+    .popular_place_navbar_list ul {
+        gap: 27px;
+    }
+    .card_image_title h3 {
+        font-size: 14px;
+    }
+    .card_image_title h4 {
+        color: orangered;
+        font-size: 14px;
+    }
+    .amenities_image img {
+        height: 287px;
+        width: 266px;
+    }
+    .amenities_content_heading h1 {
+        font-size: 20px;
+    }
+    .amenities_content_paragraph p {
+        line-height: 21px;
+    }
+    .amenities_content_paragraph p {
+        font-size: 13px;
+        padding-bottom: 0px;
+    }
+    .functionality h3{
+        font-size: 14px;
+    }
+    .functionality {
+        gap: 10px;
+    }
+    .amenities_content {
+        margin-left: 29px;
+    }
+
+    .amenities_image {
+        display: flex;
+        align-items: center;
+    }
+    .card_details {
+        gap: 20px;
+    }
+    .card_information {
+        width: 217px;
+        height: 272px;
+    }
+    .card_image img {
+        width: 197px;
+        height: 149px;
+    }
+    .card_number h1 {
+        font-size: 20px;
+    }
+    .card_number h3{
+        font-size: 16px;
+    }
+    .card_number {
+        height: 104px;
+        width: 100px;
+    }
+    .gallary_view_heading h1 {
+        font-size: 20px;
+    }
+    .gallary_view_heading h3{
+        font-size: 14.5px;
+    }
+    .gallary_view_sub_heading h3 {
+        font-size: 16px;
+    }
+    .images_gallery_card {
+        flex-wrap: wrap;
+    }
+    .logo_images img {
+        height: 22px;
+        width: 76px;
+    }
+    .form_heading h1 {
+        font-size: 24px;
+    }
+    .form_searchbox input {
+        height: 54px;
+    }
+    .form_searchbox button {
+        height: 54px;
+    }
+    .footer_logo img {
+        height: 100px;
+        width: 100px;
+    }
+    .footer_component {
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 17px;
+    }
+    .footer_component {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+   
+}
+@media (max-width: 480px){
+    .navbar_logo img {
+        height: 80px;
+        width: 80px;
+    }
+    .hero_heading h1 {
+        font-size: 28px;
+    }
+    .hero_arrow_image img {
+        width: 170px;
+    }
+    .hero_information {
+        gap: 8px;
+    }
+    .hero_image img {
+        height: 384px;
+        width: 199px;
+    }
+    .popular_place_navbar_heading h1 {
+        font-size: 17px;
+    }
+    .popular_place_navbar_list ul {
+        gap: 13px;
+    }
+    .amenities_image img {
+        height: 220px;
+        width: 220px;
+    }
+    .amenities_content {
+        margin-left: 19px;
+    }
+    .amenities_content_heading h1 {
+        font-size: 18px;
+    }
+    .card_information {
+        width: 278px;
+        height: 280px;
+    }
+    .card_image img {
+        width: 244px;
+        height: 160px;
+    }
+    .box_card {
+        gap: 54px;
+    }
+    .box_card {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .images_gallery_card {
+        gap: 26px;
+    }
+    .logo_images {
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 36px;
+    }
+    .logo_images img {
+        height: 31px;
+        width: 87px;
+    }
+    .form_heading h1 {
+        font-size: 22px;
+    }
+    .form_searchbox input {
+        width: 58%;
+    }
+    .form_searchbox input ,  .form_searchbox button{
+        height: 51px;
+    }
+    .footer_logo img {
+        height: 90px;
+        width: 90px;
+    }
+    .footer_component {
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .footer_component {
+        gap: 11px;
+    }
+    .login-box {
+        width: 348px;
+    }
+}
+@media (max-width: 420px){
+    .login-box {
+        height: 320px;
+        width: 319px;
+    }
+    .hero_arrow_image img {
+      display: none;
+    }
+    .hero_heading h1 {
+        font-size: 26px;
+    }
+    .hero_information {
+        gap: 8px;
+    }
+    .hero_image img {
+        height: 356px;
+        width: 184px;
+    }
+    .theme-padding {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .popular_place_navbar_list {
+        display: none; /* Hide the original list of places */
+    }
+    .popular_place_navbar_heading{
+        display: none;
+    }
+    .dropdown {
+        display: block; /* Show the dropdown */
+    }
+    .card_details {
+        gap: 28px;
+    }
+    .amenities_component {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .amenities_image img {
+        height: 241px;
+        width: 253px;
+        margin-bottom: 30px;
+    }
+    .amenities_image {
+        justify-content: center;
+    }
+    .amenities_content {
+        margin-left: 0px;
+    }
+    .amenities_content {
+        width: 260px;
+        display: flex;
+        justify-content: center;
+    }
+    .amenities_content_paragraph p {
+        font-size: 13px;
+        padding-bottom: 10px;
+    }
+    .amenities_functionality {
+        gap: 30px;
+    }
+    .gallary_view_heading {
+        display: inline;
+    }
+    .images_gallery_card img {
+        height: 178px;
+        width: 237px;
+    }
+    .logo_images {
+        gap: 26px;
+    }
+    .logo_images img {
+        height: 27px;
+        width: 83px;
+    }
+    .form_heading h1 {
+        font-size: 20px;
+    }
+    .footer_component {
+        gap: 0px;
+    }
+    .copyright {
+        font-size: 12px;
+    }
+    .flight_icon {
+        height: 50px;
+        width: 50px;
+    }
+    .flight_icon i {
+        font-size: 26px;
+    }
+}
+@media (max-width: 380px){
+    .login-box {
+        height: 300px;
+        width: 300px;
+    }
+    .user-box button {
+        padding: 7px 19px;
+    }
+    .login-box h2 {
+        margin: 0px 0 20px;
+    }
+    .search_btn button {
+        padding: 16px 16px;
+        font-size: 14px;
+    }
+    .hero_component {
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero_content {
+        width: 100%;
+    }
+    .hero_information {
+        gap: 0 46px;
+    }
+    .hero_arrow_image img {
+        display: flex;
+      }
+      .hero_arrow_image img {
+        width: 212px;
+        margin-left: 20px;
+    }
+    .hero_information {
+        justify-content: space-around;
+    }
+    .hero_information_list h3 {
+        font-size: 16px;
+    }
+    .hero_information_list h4 {
+        font-size: 14px;
+    }
+    .theme-padding {
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+    .hero_image img {
+        height: 369px;
+        width: 229px;
+    }
+    .card_information {
+        width: 254px;
+        height: 260px;
+    }
+    .card_image img {
+        width: 231px;
+        height: 141px;
+    }
+    .footer_component {
+        gap: 30px;
+    }
+}
+@media (max-width: 360px){
+    .hero_arrow_image img {
+        width: 203px;
+        margin-left: 9px;
+    }
+    .hero_information {
+        gap: 0 30px;
+    }
+    .search_btn button {
+        padding: 16px 17px;
+        font-size: 14px;
+    }
+}
+@media (max-width: 320px){
+    .hero_arrow_image img {
+        width: 182px;
+        margin-left: -1px;
+    }
+    .login-box {
+        height: 280px;
+        width: 280px;
+    }
+    .user-box button {
+        padding: 7px 19px;
+    }
+    .login-box h2 {
+        margin: 0px 0 20px;
+    }
+    .login-box {
+        padding: 30px;
+    }
+} 
