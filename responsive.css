@@ -733,12 +733,13 @@
     }
 }
 @media (max-width: 360px){
+     .hero_information {
+        gap: 0 -2px;
+        margin-bottom: 30px;
+    }
     .hero_arrow_image img {
         width: 203px;
         margin-left: 9px;
-    }
-    .hero_information {
-        gap: 0 30px;
     }
     .search_btn button {
         padding: 16px 17px;
@@ -764,7 +765,7 @@
         padding: 30px;
     }
      .hero_information {
-        gap: 0 10px;
+        gap: 0 -2px;
         margin-bottom: 30px;
     }
 } 
